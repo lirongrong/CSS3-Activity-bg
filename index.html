@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{ margin:0;}
+        .pr{ position: relative;}
+        .pa{ position: absolute;}
+        .bg_orange{  background: #ed8048;  max-width: 750px; margin:0 auto; overflow: hidden;  }
+        .bg_modular_01{ transform: rotate(-16deg); left: -20%; top:-5%; background: #e96f2f; height: 30%; width: 140%;}
+        .bg_modular_02{ transform: rotate(16deg); left: -30%; top:60%; background: #e96f2f; height: 60%; width: 140%; }
+        .bg_modular_03{ height: 12%; bottom:0; left:0; width:100%;overflow: hidden; background: linear-gradient(right,#df592b,#ee7930);background: -webkit-linear-gradient(right,#df592b,#ee7930);}
+        .bg_modular_030{ width: 180%; height: 360%; border-radius: 50%; background: #e96f2f;  bottom:70%; left: -40%; z-index: 2; }
+        .bg_modular_031{ width: 160%; height: 320%; border-radius: 50%; background: #fff; bottom:65%; left: -30%;  z-index: 1;  }
+        .bg_modular_032{ width:180%; height: 360%; border-radius: 50%; bottom:60%; left: -40%; z-index: 0; background: linear-gradient(right,#ee7930,#df592b); background: -webkit-linear-gradient(right,#ee7930,#df592b);}
+
+    </style>
+</head>
+<body>
+    <div class="bg_orange pr">
+        <div class="bg_modular_01 pa"></div>
+        <div class="bg_modular_02 pa"></div>
+        <div class="bg_modular_03 pa">
+            <div class="bg_modular_030 pa"></div> 
+            <div class="bg_modular_031 pa"></div>
+            <div class="bg_modular_032 pa"></div>
+        </div>
+        <div style="height:1000px;">你的内容</div>
+    </div>
+</body>
+</html>
